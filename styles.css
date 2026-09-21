@@ -1,0 +1,101 @@
+h1 {
+    color: #CAEDFF;
+}
+
+h2 {
+    color: #D8B4F8;
+}
+
+h3 {
+    color: #FFC7EA;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 24px;
+    text-shadow: 1px 1px black;
+}
+nav {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    padding: 10px;
+}
+
+nav a {
+    color: #0b0848;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+/* =========================
+   GIỚI THIỆU BẢN THÂN
+   ========================= */
+
+.gioi-thieu {
+    background-color: #F3FDE8;
+}
+
+
+/* Căn giữa ảnh đại diện */
+
+.gioi-thieu img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   BẢNG MỤC TIÊU
+   ========================= */
+
+.muctieu {
+    border: 2px solid #7aa7d9;
+    padding: 4px;
+    display: inline-block;
+}
+
+.muctieu table {
+    border-collapse: collapse;
+}
+
+.muctieu th,
+.muctieu td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.tieude-muctieu {
+    text-align: left;
+}
+
+
+/* Căn checkbox giữa ô */
+
+.muctieu td:last-child {
+    text-align: center;
+}
+
+
+/* =========================
+   GỬI THÔNG TIN
+   ========================= */
+
+.lien-he {
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    text-align: center;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    padding: 10px;
+}
